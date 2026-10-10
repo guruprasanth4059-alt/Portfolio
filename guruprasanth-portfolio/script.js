@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const contactEmailBtn = document.getElementById('contactEmailBtn');
   if (contactEmailBtn) {
     contactEmailBtn.addEventListener('click', (e) => {
-      const email = 'guruking2537@gmail.com';
+      const email = 'guruprasanth4059@gmail.com';
       if (navigator.clipboard) {
         navigator.clipboard.writeText(email).then(() => {
           showToast('Email address copied to clipboard!');

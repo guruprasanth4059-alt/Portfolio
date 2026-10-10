@@ -37,7 +37,7 @@ def run_tests():
         html = f.read()
     assert 'download="Guruprasanth_Resume.pdf"' in html, "Missing download attribute"
     assert 'href="assets/Guruprasanth_Resume.pdf"' in html, "Missing href attribute"
-    assert "guruking2537@gmail.com" in html, "Missing updated email in HTML"
+    assert "guruprasanth4059@gmail.com" in html, "Missing updated email in HTML"
     assert "Download Resume" in html, "Missing Download Resume text"
     print("[PASS] HTML download buttons and attributes verified")
 
