@@ -323,27 +323,28 @@ img {
   position: relative;
 }
 
-/* Ambient Workspace Background Artwork (Minimal Occupation) */
+/* Ambient Workspace Background Artwork (Centered with Minimal Occupation) */
 .ambient-workspace-bg {
   position: fixed;
-  top: 15px;
-  right: 15px;
-  width: 500px;
-  height: 400px;
+  top: 50%;
+  left: calc(50% + (var(--sidebar-width) / 2));
+  transform: translate(-50%, -50%);
+  width: min(720px, 85vw);
+  height: min(560px, 75vh);
   background-image: url('assets/bg-workspace.png');
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: center center;
   background-size: contain;
-  opacity: 0.14;
+  opacity: 0.12;
   pointer-events: none;
   z-index: 0;
-  mask-image: radial-gradient(circle at 75% 25%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 0) 80%);
-  -webkit-mask-image: radial-gradient(circle at 75% 25%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 0) 80%);
+  mask-image: radial-gradient(circle at center, rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 0) 80%);
+  -webkit-mask-image: radial-gradient(circle at center, rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 0) 80%);
   transition: opacity 0.3s ease;
 }
 
 [data-theme="light"] .ambient-workspace-bg {
-  opacity: 0.05;
+  opacity: 0.04;
 }
 
 .section {
@@ -1306,6 +1307,13 @@ img {
   .main-wrapper {
     margin-left: 0;
     padding: 84px 24px 40px;
+  }
+
+  .ambient-workspace-bg {
+    left: 50%;
+    width: 92vw;
+    height: 55vh;
+    opacity: 0.08;
   }
 
   .hero-container {
