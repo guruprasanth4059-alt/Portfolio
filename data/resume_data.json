@@ -1,0 +1,80 @@
+{
+  "personal": {
+    "name": "Guru Prasanth",
+    "headline": "AI Developer | Full-Stack Developer | Student",
+    "email": "guruking2537@gmail.com",
+    "linkedin_url": "https://www.linkedin.com/in/guru-prasanth-320838383",
+    "linkedin_display": "linkedin.com/in/guru-prasanth-320838383",
+    "github_url": "https://github.com/guruprasanth4059-alt",
+    "github_display": "github.com/guruprasanth4059-alt",
+    "location": "Tiruppur, Tamil Nadu, India"
+  },
+  "summary": "Motivated developer and Bachelor of Commerce student bridging financial acumen with modern software engineering and artificial intelligence. Experienced in designing full-stack prototypes, machine learning applications, and data-driven fintech tools. Active hackathon participant passionate about rapid prototyping, ethical AI, and turning real-world problem statements into high-impact digital solutions.",
+  "education": {
+    "degree": "Bachelor of Commerce (B.Com) — Accounting and Finance",
+    "primary_institution": "KPR College of Arts, Science and Research",
+    "affiliating_university": "Bharathiar University",
+    "alternative_institution_entry": "KPR Institute of Engineering and Technology",
+    "location": "Coimbatore, Tamil Nadu, India",
+    "timeline": "2025 – 2028 (Under confirmation)",
+    "confirmation_flag": "NEEDS_USER_CONFIRMATION",
+    "notes_for_user": "Your source profile lists overlapping education records mentioning: 1) KPR College of Arts, Science and Research, 2) KPR Institute of Engineering and Technology, and 3) Bharathiar University (Coimbatore). Standard academic structure in Tamil Nadu has arts/science/commerce colleges affiliated with Bharathiar University. Please confirm which institution name you prefer to display on formal submissions."
+  },
+  "skills": {
+    "Frontend Development": ["HTML5", "CSS3", "JavaScript (ES6+)", "React", "Tailwind CSS"],
+    "Backend & APIs": ["Python", "FastAPI", "Node.js", "RESTful API Design"],
+    "AI & Machine Learning": ["LLM Integration", "Prompt Engineering", "NLP Concepts", "AI Prototyping"],
+    "Databases & Tools": ["Supabase", "PostgreSQL", "Git", "GitHub", "VS Code"],
+    "Financial & Analytical": ["Financial Analysis", "Business Strategy", "Cash Flow Modeling", "Audit & Risk Assessment"]
+  },
+  "certifications": [
+    {
+      "name": "Shields Up: Cybersecurity Job Simulation",
+      "issuer": "AIG (via Forage)",
+      "focus": "Security architecture, vulnerability analysis, and incident mitigation"
+    },
+    {
+      "name": "Career Catalyst: Audit Job Simulation",
+      "issuer": "KPMG U.S. (via Forage)",
+      "focus": "Financial statement analysis, internal controls, and audit procedures"
+    }
+  ],
+  "projects": [
+    {
+      "id": "manas",
+      "title": "Manas Suraksha",
+      "category": "AI for Social Good",
+      "status": "Prototype / Concept",
+      "subtitle": "AI-Powered Mental Health Monitoring & Distress Prediction System",
+      "description": "An AI-assisted mental well-being platform designed to support survivors through continuous psychological care. Implements ethical distress signal detection with privacy safeguards, vernacular multilingual support, and an offline SMS/IVRS fallback architecture for accessible reach in low-bandwidth regions.",
+      "technologies": ["Python", "FastAPI", "NLP", "Ethical AI Architecture", "SMS/IVRS Integration"]
+    },
+    {
+      "id": "cashflow",
+      "title": "Cashflow",
+      "category": "FinTech / Business Analytics",
+      "status": "Prototype / Working Concept",
+      "subtitle": "30-Day Cash Flow Forecasting & Financial Advisory Workspace",
+      "description": "A predictive financial analytics platform designed for small businesses to track real-time liquidity, forecast rolling 30-day inflows and expenses, and simulate scenarios like payment delays. Provides automated anomaly alerts to help entrepreneurs prevent cash crunches.",
+      "technologies": ["React", "Node.js", "Supabase", "Financial Analytics", "Tailwind CSS"]
+    },
+    {
+      "id": "eco",
+      "title": "Eco Verzz AI",
+      "category": "Sustainability Tech",
+      "status": "Prototype / Concept",
+      "subtitle": "AI-Powered Environmental Monitoring & Ecological Detection",
+      "description": "An environmental monitoring tool combining computer vision models with real-time API services to detect deforestation, vegetation stress, and ecological changes. Built to deliver actionable sustainability data for conservation initiatives.",
+      "technologies": ["Python", "FastAPI", "Express.js", "Supabase", "Computer Vision Concepts"]
+    },
+    {
+      "id": "fundfit",
+      "title": "FundFit AI",
+      "category": "Financial Tech",
+      "status": "Prototype / Concept",
+      "subtitle": "Mutual Fund Evaluation & Quantitative Advisory Engine",
+      "description": "A quantitative investment evaluation prototype that maps mutual funds against personalized investor risk profiles using explainable metrics (alpha, beta, risk-adjusted returns). Translates complex fund metrics into transparent, actionable portfolio insights.",
+      "technologies": ["Next.js", "Python", "Supabase", "Quantitative Financial Metrics"]
+    }
+  ]
+}

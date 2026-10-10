@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const contactEmailBtn = document.getElementById('contactEmailBtn');
   if (contactEmailBtn) {
     contactEmailBtn.addEventListener('click', (e) => {
-      const email = 'guruprasanth4059@gmail.com';
+      const email = 'guruking2537@gmail.com';
       if (navigator.clipboard) {
         navigator.clipboard.writeText(email).then(() => {
           showToast('Email address copied to clipboard!');
@@ -246,6 +246,13 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
+
+  // Resume Download Feedback
+  document.querySelectorAll('a[download="Guruprasanth_Resume.pdf"]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      showToast('Downloading Guruprasanth_Resume.pdf...');
+    });
+  });
 
   // 7. Back to Top Button
   const backToTopBtn = document.getElementById('backToTopBtn');
